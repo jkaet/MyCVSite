@@ -9731,19 +9731,19 @@ textarea.form-control {
     }
 
     .bar.learning::before{
-      width: calc(20% - 20px);
+      width: calc(90% - 20px);
     }
     .bar.basic::before{
-      width: calc(40% - 20px);
-    }
-    .bar.intermediate::before{
-      width: calc(60% - 20px);
-    }
-    .bar.advanced::before{
       width: calc(80% - 20px);
     }
+    .bar.intermediate::before{
+      width: calc(70% - 20px);
+    }
+    .bar.advanced::before{
+      width: calc(50% - 20px);
+    }
     .bar.expert::before{
-      width: calc(100% - 20px);
+      width: calc(30% - 20px);
     }
 
     @keyframes fade-in {
