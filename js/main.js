@@ -448,6 +448,8 @@ $(function() {
   function init() {
 		var element = document.getElementById("myskilllist");
   	element.classList.add(".hidden");
+		element = document.getElementById("bar learning");
+  	element.classList.add(".hidden");
     elements = document.querySelectorAll('.hidden');
     windowHeight = window.innerHeight;
   }
